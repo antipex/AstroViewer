@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27684D262726149E001ACFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27684D252726149E001ACFF7 /* AppDelegate.swift */; };
+		27684D282726149E001ACFF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27684D272726149E001ACFF7 /* SceneDelegate.swift */; };
+		27684D2A2726149E001ACFF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27684D292726149E001ACFF7 /* ViewController.swift */; };
+		27684D2D2726149E001ACFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27684D2B2726149E001ACFF7 /* Main.storyboard */; };
+		27684D2F2726149F001ACFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27684D2E2726149F001ACFF7 /* Assets.xcassets */; };
+		27684D322726149F001ACFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27684D302726149F001ACFF7 /* LaunchScreen.storyboard */; };
+		27684D3D272614A0001ACFF7 /* AstroViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27684D3C272614A0001ACFF7 /* AstroViewerTests.swift */; };
+		27684D47272614A0001ACFF7 /* AstroViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27684D46272614A0001ACFF7 /* AstroViewerUITests.swift */; };
+		27684D49272614A0001ACFF7 /* AstroViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27684D48272614A0001ACFF7 /* AstroViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27684D39272614A0001ACFF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27684D1A2726149E001ACFF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27684D212726149E001ACFF7;
+			remoteInfo = AstroViewer;
+		};
+		27684D43272614A0001ACFF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27684D1A2726149E001ACFF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27684D212726149E001ACFF7;
+			remoteInfo = AstroViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27684D222726149E001ACFF7 /* AstroViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27684D252726149E001ACFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27684D272726149E001ACFF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27684D292726149E001ACFF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27684D2C2726149E001ACFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27684D2E2726149F001ACFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27684D312726149F001ACFF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27684D332726149F001ACFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27684D38272614A0001ACFF7 /* AstroViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27684D3C272614A0001ACFF7 /* AstroViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroViewerTests.swift; sourceTree = "<group>"; };
+		27684D42272614A0001ACFF7 /* AstroViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstroViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27684D46272614A0001ACFF7 /* AstroViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroViewerUITests.swift; sourceTree = "<group>"; };
+		27684D48272614A0001ACFF7 /* AstroViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27684D1F2726149E001ACFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27684D35272614A0001ACFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27684D3F272614A0001ACFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27684D192726149E001ACFF7 = {
+			isa = PBXGroup;
+			children = (
+				27684D242726149E001ACFF7 /* AstroViewer */,
+				27684D3B272614A0001ACFF7 /* AstroViewerTests */,
+				27684D45272614A0001ACFF7 /* AstroViewerUITests */,
+				27684D232726149E001ACFF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27684D232726149E001ACFF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27684D222726149E001ACFF7 /* AstroViewer.app */,
+				27684D38272614A0001ACFF7 /* AstroViewerTests.xctest */,
+				27684D42272614A0001ACFF7 /* AstroViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27684D242726149E001ACFF7 /* AstroViewer */ = {
+			isa = PBXGroup;
+			children = (
+				27684D252726149E001ACFF7 /* AppDelegate.swift */,
+				27684D272726149E001ACFF7 /* SceneDelegate.swift */,
+				27684D292726149E001ACFF7 /* ViewController.swift */,
+				27684D2B2726149E001ACFF7 /* Main.storyboard */,
+				27684D2E2726149F001ACFF7 /* Assets.xcassets */,
+				27684D302726149F001ACFF7 /* LaunchScreen.storyboard */,
+				27684D332726149F001ACFF7 /* Info.plist */,
+			);
+			path = AstroViewer;
+			sourceTree = "<group>";
+		};
+		27684D3B272614A0001ACFF7 /* AstroViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				27684D3C272614A0001ACFF7 /* AstroViewerTests.swift */,
+			);
+			path = AstroViewerTests;
+			sourceTree = "<group>";
+		};
+		27684D45272614A0001ACFF7 /* AstroViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27684D46272614A0001ACFF7 /* AstroViewerUITests.swift */,
+				27684D48272614A0001ACFF7 /* AstroViewerUITestsLaunchTests.swift */,
+			);
+			path = AstroViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27684D212726149E001ACFF7 /* AstroViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27684D4C272614A0001ACFF7 /* Build configuration list for PBXNativeTarget "AstroViewer" */;
+			buildPhases = (
+				27684D1E2726149E001ACFF7 /* Sources */,
+				27684D1F2726149E001ACFF7 /* Frameworks */,
+				27684D202726149E001ACFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroViewer;
+			productName = AstroViewer;
+			productReference = 27684D222726149E001ACFF7 /* AstroViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27684D37272614A0001ACFF7 /* AstroViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27684D4F272614A0001ACFF7 /* Build configuration list for PBXNativeTarget "AstroViewerTests" */;
+			buildPhases = (
+				27684D34272614A0001ACFF7 /* Sources */,
+				27684D35272614A0001ACFF7 /* Frameworks */,
+				27684D36272614A0001ACFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27684D3A272614A0001ACFF7 /* PBXTargetDependency */,
+			);
+			name = AstroViewerTests;
+			productName = AstroViewerTests;
+			productReference = 27684D38272614A0001ACFF7 /* AstroViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27684D41272614A0001ACFF7 /* AstroViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27684D52272614A0001ACFF7 /* Build configuration list for PBXNativeTarget "AstroViewerUITests" */;
+			buildPhases = (
+				27684D3E272614A0001ACFF7 /* Sources */,
+				27684D3F272614A0001ACFF7 /* Frameworks */,
+				27684D40272614A0001ACFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27684D44272614A0001ACFF7 /* PBXTargetDependency */,
+			);
+			name = AstroViewerUITests;
+			productName = AstroViewerUITests;
+			productReference = 27684D42272614A0001ACFF7 /* AstroViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27684D1A2726149E001ACFF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					27684D212726149E001ACFF7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					27684D37272614A0001ACFF7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 27684D212726149E001ACFF7;
+					};
+					27684D41272614A0001ACFF7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 27684D212726149E001ACFF7;
+					};
+				};
+			};
+			buildConfigurationList = 27684D1D2726149E001ACFF7 /* Build configuration list for PBXProject "AstroViewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27684D192726149E001ACFF7;
+			productRefGroup = 27684D232726149E001ACFF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27684D212726149E001ACFF7 /* AstroViewer */,
+				27684D37272614A0001ACFF7 /* AstroViewerTests */,
+				27684D41272614A0001ACFF7 /* AstroViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27684D202726149E001ACFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27684D322726149F001ACFF7 /* LaunchScreen.storyboard in Resources */,
+				27684D2F2726149F001ACFF7 /* Assets.xcassets in Resources */,
+				27684D2D2726149E001ACFF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27684D36272614A0001ACFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27684D40272614A0001ACFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27684D1E2726149E001ACFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27684D2A2726149E001ACFF7 /* ViewController.swift in Sources */,
+				27684D262726149E001ACFF7 /* AppDelegate.swift in Sources */,
+				27684D282726149E001ACFF7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27684D34272614A0001ACFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27684D3D272614A0001ACFF7 /* AstroViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27684D3E272614A0001ACFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27684D49272614A0001ACFF7 /* AstroViewerUITestsLaunchTests.swift in Sources */,
+				27684D47272614A0001ACFF7 /* AstroViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27684D3A272614A0001ACFF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27684D212726149E001ACFF7 /* AstroViewer */;
+			targetProxy = 27684D39272614A0001ACFF7 /* PBXContainerItemProxy */;
+		};
+		27684D44272614A0001ACFF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27684D212726149E001ACFF7 /* AstroViewer */;
+			targetProxy = 27684D43272614A0001ACFF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27684D2B2726149E001ACFF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27684D2C2726149E001ACFF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27684D302726149F001ACFF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27684D312726149F001ACFF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27684D4A272614A0001ACFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27684D4B272614A0001ACFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27684D4D272614A0001ACFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstroViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.AstroViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27684D4E272614A0001ACFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstroViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.AstroViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27684D50272614A0001ACFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.AstroViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroViewer.app/AstroViewer";
+			};
+			name = Debug;
+		};
+		27684D51272614A0001ACFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.AstroViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstroViewer.app/AstroViewer";
+			};
+			name = Release;
+		};
+		27684D53272614A0001ACFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.AstroViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroViewer;
+			};
+			name = Debug;
+		};
+		27684D54272614A0001ACFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2HPM8JL26;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylerohr.AstroViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AstroViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27684D1D2726149E001ACFF7 /* Build configuration list for PBXProject "AstroViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27684D4A272614A0001ACFF7 /* Debug */,
+				27684D4B272614A0001ACFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27684D4C272614A0001ACFF7 /* Build configuration list for PBXNativeTarget "AstroViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27684D4D272614A0001ACFF7 /* Debug */,
+				27684D4E272614A0001ACFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27684D4F272614A0001ACFF7 /* Build configuration list for PBXNativeTarget "AstroViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27684D50272614A0001ACFF7 /* Debug */,
+				27684D51272614A0001ACFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27684D52272614A0001ACFF7 /* Build configuration list for PBXNativeTarget "AstroViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27684D53272614A0001ACFF7 /* Debug */,
+				27684D54272614A0001ACFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27684D1A2726149E001ACFF7 /* Project object */;
+}
