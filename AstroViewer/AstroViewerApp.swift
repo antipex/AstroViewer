@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct AstroViewerApp: App {
+
+    @StateObject var appCoordinator = AppCoordinator()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            switch appCoordinator.rootView {
+            case .pictureList:
+                appCoordinator.pictureListView()
+                    .environmentObject(appCoordinator)
+            }
         }
     }
 }
